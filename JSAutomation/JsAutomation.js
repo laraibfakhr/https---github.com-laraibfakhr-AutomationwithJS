@@ -7,3 +7,9 @@ console.log("the candidate is eligible")
 }else{
     console.log("the candidate is not eligible")
 }
+//For Loop
+
+var car=["Ford", "BMW","Suzuki","Mercedez"]
+for(i=0;i<car.length;i++){
+    console.log("My no. " + (i+1) +" favourite car is:" + car[i])
+}
